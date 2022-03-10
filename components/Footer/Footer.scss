@@ -1,0 +1,15 @@
+.footer {
+    background-color: #ccc;
+    height: 200px;
+    width: 100%;
+    margin-bottom: 120px;
+
+    &__bar {
+        color: #666;
+        width: 100%;
+        background: #333;
+        border-top: 1px solid #484848;
+        padding: 10px 0px 10px 0px;
+        margin: 20px 0px 0px 0px;
+    }
+}
