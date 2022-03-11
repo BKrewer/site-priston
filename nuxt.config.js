@@ -1,9 +1,9 @@
 export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'site-priston',
+    title: 'Priston Tale',
     htmlAttrs: {
-      lang: 'en'
+      lang: 'pt-br'
     },
     meta: [
       { charset: 'utf-8' },
@@ -24,7 +24,8 @@ export default {
       {
         rel: 'stylesheet',
         href: 'https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap'
-      }
+      },
+      { rel: 'stylesheet', href: 'https://fonts.googleapis.com/icon?family=Material+Icons' }
     ]
   },
 

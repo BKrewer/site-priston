@@ -3,13 +3,14 @@
     <div class="navbar__content wrapper">
       <ul class="navbar__menu">
         <li class="navbar__link" v-for="link in links" :key="link.to">
-          <NuxtLink :to="link.to">
+          <a v-if="link.external" :href="link.to" rel="noopener noreferrer">{{ link.name }}</a>
+          <NuxtLink v-else :to="link.to">
             {{ link.name }}
           </NuxtLink>
         </li>
       </ul>
-      <NuxtLink class="navbar__btn-download" to="/download'">
-        Download Game
+      <NuxtLink class="navbar__btn-download" to="/download">
+        Download do jogo
       </NuxtLink>
     </div>
   </nav>
@@ -21,16 +22,29 @@ export default {
     return {
       links: [
         {
-          name: "Home",
+          name: "Início",
           to: "/",
+        },
+        {
+          name: 'Conta',
+          to: '#',
+          external: true
         },
         {
           name: "Informações",
           to: "/info",
         },
         {
-          name: "Guia",
+          name: "Guias",
           to: "/guide",
+        },
+        {
+          name: "Rankings",
+          to: "/rankings",
+        },
+        {
+          name: "Suporte",
+          to: "/support",
         },
       ],
     };

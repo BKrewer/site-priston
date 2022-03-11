@@ -1,0 +1,23 @@
+.info-page {
+    .box-info {
+        width: 70%;
+        
+        &__header {
+            background-color: #32333b;
+            padding: 10px;
+            color: var(--white);
+            text-transform: uppercase;
+            margin-bottom: 16px;
+        }
+        
+        &__body {
+            margin-bottom: 20px;
+
+            ul {
+                li {
+                    line-height: 24px;
+                }
+            }
+        }
+    }
+}
