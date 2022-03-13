@@ -2,7 +2,7 @@
   <div class="card">
       <div class="card__header">
           <h2 class="card__title">{{ title }}</h2>
-          <i class="card__icon"></i>
+          <img v-if="icon" :src="icon" class="card__icon"/>
       </div>
       <div class="card__body">
           <slot></slot>
@@ -16,6 +16,10 @@ export default {
         title: {
             type: String,
             default: '',
+        },
+        icon: {
+            type: String,
+            default: ''
         }
     }
 }

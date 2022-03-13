@@ -1,7 +1,7 @@
 export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'Priston Tale',
+    title: "Hell'sTale",
     htmlAttrs: {
       lang: 'pt-br'
     },
@@ -35,8 +35,7 @@ export default {
   ],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
-  plugins: [
-  ],
+  plugins: ['~/plugins/vue-agile'],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
   components: true,
@@ -59,5 +58,6 @@ export default {
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
+    transpile: ['vue-agile']
   }
 }

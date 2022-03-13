@@ -8,7 +8,6 @@
     background-color: #40434e;
     box-shadow: inset 0px -6px 0px rgb(0 0 0 / 30%);
     border-radius: 5px 10px 0px 0px;
-    margin-top: 260px;
 
     &__content {
         display: flex;
@@ -25,7 +24,7 @@
 
         a {
             font-size: 15px;
-            color: #9fa1a6;
+            color: #cbcbcb;
             font-weight: 700;
             text-decoration: none;
             text-transform: uppercase;
@@ -35,18 +34,18 @@
             -o-transition: all 0.35s ease-in-out;
 
             &:hover {
-                color: var(--white);
+                color: #fd1616;
             }
 
             &.nuxt-link-exact-active {
-                color: var(--white);
+                color: #fd1616;
             }
         }
     }
 
     &__btn-download {
         margin-left: auto;
-        background-color: #1b7ea3;
+        background-color: #ff5b5b;
         font-size: 12px;
         padding: 14px;
         text-decoration: none;

@@ -126,10 +126,21 @@ body {
     font-family: "Montserrat", sans-serif;
     background-attachment: fixed !important;
     background-size: cover;
-    background: url(../images/background.jpg);
+    background: url(../images/background1.jpg);
     background-position-x: 50%;
     background-position-y: 0;
     color: #666;
+    background-repeat: no-repeat;
+}
+
+header {
+    padding-top: 140px;
+}
+
+header .site-logo img {
+    width: 280px;
+    margin: 0 auto 50px;
+    display: block;
 }
 
 .content {
@@ -151,7 +162,7 @@ body {
 
 @media (min-width: 1400px) {
     .wrapper {
-        width: 1300px;
+        width: 1200px;
         margin: 0 auto;
     }
 }
