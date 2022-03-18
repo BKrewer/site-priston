@@ -126,7 +126,7 @@ body {
     font-family: "Montserrat", sans-serif;
     background-attachment: fixed !important;
     background-size: cover;
-    background: url(../images/background1.jpg);
+    background: url(../images/background.jpg);
     background-position-x: 50%;
     background-position-y: 0;
     color: #666;
@@ -137,10 +137,14 @@ header {
     padding-top: 140px;
 }
 
-header .site-logo img {
+header .site-logo {
     width: 280px;
     margin: 0 auto 50px;
     display: block;
+}
+
+header .site-logo img {
+    width: 280px;
 }
 
 .content {

@@ -1,0 +1,22 @@
+@mixin btn-download {
+    margin-left: auto;
+    background-color: #ff5b5b;
+    font-size: 12px;
+    padding: 14px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    border-radius: 5px;
+    font-weight: 700;
+    box-shadow: 0 -3px rgb(0 0 0 / 10%) inset;
+    -moz-box-shadow: 0 -3px rgba(0, 0, 0, 0.1) inset;
+    -webkit-box-shadow: 0 -3px rgb(0 0 0 / 10%) inset;
+    -o-box-shadow: 0 -3px rgba(0, 0, 0, 0.1) inset;
+    height: 40px;
+    box-sizing: border-box;
+    margin-right: 16px;
+
+    &:hover {
+        background-color: #df4949;
+    }
+}
