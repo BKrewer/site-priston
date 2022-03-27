@@ -1,38 +1,31 @@
-.navbar {
-    align-items: center;
+.guide-navbar {
     box-sizing: border-box;
     display: flex;
-    height: 70px;
-    padding: 20px 0;
+    height: 40px;
     width: 100%;
     background-color: #40434e;
     box-shadow: inset 0px -6px 0px rgb(0 0 0 / 30%);
-    border-radius: 5px 10px 0px 0px;
-
-    &__content {
-        display: flex;
-        align-items: center;
-    }
 
     &__menu {
         display: flex;
         flex-direction: row;
-        overflow: hidden;
     }
 
     &__link {
-        padding: 27px 20px;
+        display: flex;
+        align-items: center;
+        height: 38px;
 
         a {
             font-size: 15px;
             color: #cbcbcb;
-            font-weight: 700;
+            font-weight: 500;
             text-decoration: none;
-            text-transform: uppercase;
             transition: all 0.35s ease-in-out;
             -moz-transition: all 0.35s ease-in-out;
             -webkit-transition: all 0.35s ease-in-out;
             -o-transition: all 0.35s ease-in-out;
+            padding: 10px 20px;
 
             &:hover {
                 color: #fd1616;
@@ -42,17 +35,5 @@
                 color: #fd1616;
             }
         }
-
-        &:not(:first-child) {
-            a {
-                &.nuxt-link-active {
-                    color: #fd1616;
-                }
-            }
-        }
-    }
-
-    &__btn-download {
-        @include btn-download;
     }
 }

@@ -138,13 +138,15 @@ header {
 }
 
 header .site-logo {
-    width: 280px;
+    max-width: 280px;
+    width: 100%;
     margin: 0 auto 50px;
     display: block;
 }
 
 header .site-logo img {
-    width: 280px;
+    max-width: 280px;
+    width: 100%;
 }
 
 .content {
@@ -168,5 +170,26 @@ header .site-logo img {
     .wrapper {
         width: 1200px;
         margin: 0 auto;
+    }
+}
+
+@media (max-width: 1300px) {
+    .wrapper {
+        width: 90%;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 992px) {
+    header {
+        padding-top: 80px;
+    }
+
+    header .site-logo {
+        width: 200px;
+    }
+
+    header .site-logo img {
+        max-width: 200px;
     }
 }

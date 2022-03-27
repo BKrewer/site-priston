@@ -1,7 +1,5 @@
 <template>
-  <section class="guide-page page-box">
-      a
-  </section>
+  <div>aaaaaaaa</div>
 </template>
 
 <script>
@@ -10,4 +8,6 @@ export default {
 }
 </script>
 
-<style lang="scss" src="./styles.scss" />
+<style>
+
+</style>
