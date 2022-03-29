@@ -1,0 +1,23 @@
+.download-box {
+    &__content {
+        border: 2px solid #40434e;
+        display: flex;
+        flex-direction: row;
+        padding: 20px;
+        align-items: center;
+
+        a {
+            @include btn-download;
+            height: 60px;
+            padding: 24px;
+            margin-right: 0;
+        }
+    }
+
+    &__title {
+        font-size: 22px;
+        color: #ff5b5b;
+        font-weight: 600;
+        margin-bottom: 10px;
+    }
+}

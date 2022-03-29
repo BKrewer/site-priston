@@ -103,24 +103,18 @@
           </ul>
         </div>
       </div>
-      <div class="info-page__download">
-        <div class="info-page__download-texts">
-          <h2 class="info-page__download-title">Não perca tempo!</h2>
-          <p class="info-page__download-subtitle">Faça o download e inicie agora mesmo.</p>
-        </div>
-        <NuxtLink to="/download">
-          Download do Jogo
-        </NuxtLink>
-      </div>
     </div>
-        <aside class="info-page__image">
-      <img src="~/assets/images/shy.gif" alt="Monstro shy" />
+    <aside class="info-page__card">
+      <FullDownloadCard />
     </aside>
   </section>
 </template>
 
 <script>
-export default {};
+import FullDownloadCard from '../../components/FullDownloadCard/FullDownloadCard.vue';
+export default {
+  components: { FullDownloadCard },
+};
 </script>
 
 <style lang="scss" src="./styles.scss" />

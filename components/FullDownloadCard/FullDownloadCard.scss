@@ -1,0 +1,45 @@
+.full-download-card {
+    border: 2px solid #40434e;
+
+    &__header {
+        background-color: #40434e;
+        padding: 10px;
+    }
+
+    &__title {
+        font-size: 22px;
+        font-weight: 500;
+        color: #fff;
+        margin-bottom: 10px;
+    }
+
+    &__subtitle {
+        color: #f2f2f2;
+        font-size: 16px;
+    }
+
+    &__body {
+        display: flex;
+        flex-direction: column;
+
+        a {
+            padding: 16px;
+            text-decoration: none;
+            font-size: 18px;
+            font-weight: 500;
+            color: #666;
+            height: 50px;
+            display: flex;
+            align-items: center;
+
+            &:hover {
+                background-color: rgba($color: #000000, $alpha: 0.1);
+            }
+
+            img {
+                width: 30px;
+                margin-right: 10px;
+            }
+        }
+    }
+}

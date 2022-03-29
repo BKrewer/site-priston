@@ -4,37 +4,12 @@
     flex-wrap: wrap;
 
     &__texts {
-        width: 60%;
+        width: 68%;
     }
 
-    &__image {
-        width: 40%;
-
-        img {
-            width: 100%;
-        }
-    }
-
-    &__download {
-        border: 2px solid #40434e;
-        display: flex;
-        flex-direction: row;
-        padding: 20px;
-        align-items: center;
-
-        a {
-            @include btn-download;
-            height: 60px;
-            padding: 24px;
-            margin-right: 0;
-        }
-    }
-
-    &__download-title {
-        font-size: 22px;
-        color: #ff5b5b;
-        font-weight: 600;
-        margin-bottom: 10px;
+    &__card {
+        width: 30%;
+        margin-left: 2%;
     }
 
     .box-info {
@@ -45,7 +20,7 @@
             text-transform: uppercase;
             margin-bottom: 16px;
         }
-        
+
         &__body {
             margin-bottom: 20px;
 
@@ -56,14 +31,9 @@
             }
         }
     }
-
     @media (max-width: 768px) {
         &__texts {
             width: 100%;
-        }
-
-        &__image {
-            display: none;
         }
     }
 }

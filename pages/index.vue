@@ -19,7 +19,7 @@
         <Card title="NÓTICIAS"> IHULLLL </Card>
       </section>
       <aside class="home-page__cards">
-        <Card title="SERVIDOR"> Online </Card>
+        <Card title="SERVIDOR" :icon="require('~/assets/images/servericon.png')"> Online </Card>
         <Card title="TOP LEVEL" :icon="require('~/assets/images/toplevel.svg')">
           <u>
             <li>1</li>
@@ -165,6 +165,8 @@ export default {
       &__icon {
         filter: invert(65%) sepia(52%) saturate(6375%) hue-rotate(328deg)
           brightness(100%) contrast(101%);
+          width: 24px;
+          height: 24px;
       }
     }
   }

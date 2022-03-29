@@ -10,15 +10,38 @@
     &__cards {
         display: flex;
         flex-direction: row;
-        justify-content: space-between;
+        justify-content: center;
     }
 
     .download-card {
-        width: 49%;
+        width: 35%;
+        
+        &:first-child {
+            margin-right: 2%;
+        }
     }
 
     &__required {
         border-top: 2px solid #40434e;
         margin-top: 50px;
+
+        table {
+            width: 100%;
+            padding: 2rem;
+            background: #40434e;
+            border-radius: 4px;
+            border-spacing: 0;
+            margin: 30px 0 20px;
+
+            tr {
+                td {
+                    font-size:16px;
+                    text-align: left;
+                    padding: 20px 10px;
+                    border-bottom: 1px solid rgba($color: #ffffff, $alpha: 0.2);
+                    color: #fff;
+                }
+            }
+        }
     }
 }
