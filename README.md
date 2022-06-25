@@ -1,6 +1,6 @@
 # Site Priston
 
-Site baseado no jogo priston tale, utilizando layout clean.
+Site baseado no jogo priston tale.
 
 ## Tecnologias
 
